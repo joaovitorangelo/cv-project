@@ -33,7 +33,6 @@ const TechnologiesContainer = () => {
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".technology-card",
-          markers: true,
           start: "top 450px",
           end: "bottom 100px",
           scrub: true,

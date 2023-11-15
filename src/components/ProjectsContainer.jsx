@@ -14,7 +14,6 @@ const ProjectsContainer = () => {
         delay: 1,
         scrollTrigger: {
           trigger: ".projects-container",
-          markers: true,
           start: "top 800px",
           end: "bottom 500px",
           scrub: true,
