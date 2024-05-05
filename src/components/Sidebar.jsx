@@ -1,9 +1,11 @@
 import SocialNetworkContainer from "./SocialNetworkContainer";
 import InformationContainer from "./InformationContainer";
+import AboutContainer from "./AboutContainer";
 
-import Avatar from "../img/avatar.jpg";
+import Avatar from "../img/fotoperfil.jpg";
 
 import "../styles/components/sidebar.sass";
+import Contact from "./Contact";
 
 const Sidebar = () => {
   return (
@@ -15,6 +17,8 @@ const Sidebar = () => {
       <a href="../cvjoaovitor.pdf" download="cvjoaovitor.pdf" className="btn">
         Download currículo
       </a>
+      <AboutContainer />
+      <Contact />
     </aside>
   );
 };

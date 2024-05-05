@@ -2,7 +2,7 @@
 @use '../mixins'
     
 .technologies-container
-    margin-bottom: 1rem
+    margin: 3rem 0 0 0
 
     .technologies-grid
         display: flex
@@ -37,17 +37,36 @@
         svg
             color: #1572B6
 
+    #sass
+        transform: translateY(-100px)
+        opacity: 0
+        svg
+            color: #f160a4
+
     #js
         transform: translateY(-100px)
         opacity: 0
         svg
             color: #F0DB4F
 
-    #sass
+
+    #react
         transform: translateY(-100px)
         opacity: 0
         svg
-            color: #f160a4
+            color: #61DAFB
+
+    #wordpress
+        transform: translateY(-100px)
+        opacity: 0
+        svg
+            color: #ffffff
+
+    #php
+        transform: translateY(-100px)
+        opacity: 0
+        svg
+            color: #4F5B93
 
     #mysql
         transform: translateY(-100px)
@@ -55,11 +74,6 @@
         svg
             color: #00618A
 
-    #react
-        transform: translateY(-100px)
-        opacity: 0
-        svg
-            color: #61DAFB
 
     @media (max-width: 768px)
             .technology-card

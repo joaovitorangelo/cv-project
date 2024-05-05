@@ -1,3 +1,4 @@
+import { FaArrowRight } from "react-icons/fa";
 import { useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -30,11 +31,9 @@ const ProjectsContainer = () => {
     <section className="projects-container">
       <h2>Projetos</h2>
       <p>
-        Se desejar explorar alguns dos meus projetos, o botão abaixo o
+        Se desejar verificar alguns dos meus projetos, o botão abaixo 
         redirecionará para a minha última aplicação. Na qual depositei meus
-        conhecimentos em HTML5, CSS3 e React.js. Sempre com o objetivo de buscar
-        a melhor interatividade com os usuários, combinando-a com pura
-        criatividade.
+        conhecimentos em HTML5, CSS3 e React.js.
       </p>
       <a
         href="https://movies-lib-mocha.vercel.app/"
@@ -42,6 +41,9 @@ const ProjectsContainer = () => {
         className="projectsBtn"
       >
         Ver Projetos
+        <span>
+          <FaArrowRight />
+        </span>
       </a>
     </section>
   );

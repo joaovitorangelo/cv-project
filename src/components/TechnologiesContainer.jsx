@@ -5,6 +5,8 @@ import {
   DiSass,
   DiMysql,
   DiReact,
+  DiWordpress,
+  DiPhp 
 } from "react-icons/di";
 
 import "../styles/components/technologiescontainer.sass";
@@ -16,10 +18,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 />, description: "Avançado" },
   { id: "css", name: "CSS3", icon: <DiCss3 />, description: "Intermediário" },
-  { id: "js", name: "JavaScript", icon: <DiJsBadge />, description: "Básico" },
   { id: "sass", name: "Sass", icon: <DiSass />, description: "Intermediário" },
-  { id: "mysql", name: "MySQL", icon: <DiMysql />, description: "Básico" },
+  { id: "js", name: "JavaScript", icon: <DiJsBadge />, description: "Básico" },
   { id: "react", name: "React", icon: <DiReact />, description: "Básico" },
+  { id: "wordpress", name: "WordPress", icon: <DiWordpress />, description: "Básico" },
+  { id: "php", name: "pHp", icon: <DiPhp />, description: "Básico" },
+  { id: "mysql", name: "MySQL", icon: <DiMysql />, description: "Básico" },
 ];
 
 const TechnologiesContainer = () => {
